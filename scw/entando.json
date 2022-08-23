@@ -1,0 +1,34 @@
+{
+    "microservices": [],
+    "microfrontends": [
+        {
+            "name": "et-widget",
+            "customElement": "my-single-widget",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "titles": {
+                "en": "SW-en MFE",
+                "it": "SW-it MFE"
+            },
+            "commands": {
+                "run": "npm install && PORT=3002 npm start"
+            }
+        },
+        {
+            "name": "et-widget-config",
+            "customElement": "single-content-widget-config",
+            "stack": "react",
+            "type": "widget-config",
+            "group": "free",
+            "commands": {
+                "run": "npm install && PORT=3001 npm start"
+            }
+        }
+    ],
+    "svc": [],
+    "name": "scw",
+    "version": "2.0.0",
+    "description": "scw description",
+    "type": "bundle"
+}

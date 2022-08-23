@@ -1,0 +1,7 @@
+name: scw
+description: scw description
+components:
+  widgets:
+    - widgets/et-widget.yaml
+    - widgets/et-widget-config.yaml
+descriptorVersion: v5

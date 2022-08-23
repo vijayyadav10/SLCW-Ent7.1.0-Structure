@@ -1,0 +1,5 @@
+name: et-widget-config
+type: widget-config
+group: free
+descriptorVersion: v5
+customElement: single-content-widget-config
